@@ -1,0 +1,32 @@
+{
+  "name": "test-intern",
+  "version": "1.0.0",
+  "description": "UNIT9 Development Intern Testing Pipeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unit9/test-intern.git"
+  },
+  "keywords": [
+    "UNIT9",
+    "Intern",
+    "Test"
+  ],
+  "author": "Maciej Zasada <maciej@unit9.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unit9/test-intern/issues"
+  },
+  "homepage": "https://github.com/unit9/test-intern#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5"
+  },
+  "dependencies": {
+    "lodash.isequal": "^4.5.0"
+  }
+}
