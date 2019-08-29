@@ -3,8 +3,8 @@ import { measureTime, computeComplexity} from './lib/performance';
 import { report } from './lib/reporting';
 import task1Data from './data/task1';
 import task2Data from './data/task2';
-import task1 from './solutions/task1';
-import task2 from './solutions/task2';
+import task1 from './tasks/task1';
+import task2 from './tasks/task2';
 
 const tasks = [task1, task2];
 const data = [task1Data, task2Data];
