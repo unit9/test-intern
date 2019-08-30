@@ -2,14 +2,18 @@
 
 ## Description
 
-A colour in computer science is usually represented as a hexadecimal number.
-Like 0xff0000 for red.
-It actually logically consists of three components - the red, green and blue value which can be found in the number as follows: 0xRRGGBB.
-So again, a number 0x00ff00 would be a green colour.
+Given an expression string *exp* , write a program to examine whether the pairs and the orders of “{“,”}”,”(“,”)”,”[“,”]” are correct in *exp* (true), or incorrect (false).
 
-Your task is to implement a function that, when passed such hexadecimal number, will return an object containing the three RGB components separately, like:
-> <tt>{ r: 255, g: 0, b: 0 }</tt>
+Example:
 
-when it's given a 0xff0000 number.
+Input:
+> <tt>“[()]{}{[()()]()}”</tt>
 
-Naturally, your function should return correct r, g and b components for any hexadecimal number.
+Output:
+> <tt>true</tt>
+
+Input:
+> <tt>“[(])”</tt>
+
+Output:
+> <tt>false</tt>
