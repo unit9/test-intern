@@ -6,7 +6,7 @@ Dear Candidate,
 
 We're extremely excited that you're interested in joining us for programming internship. We know you've only recently started your adventure with development, although we do require basic programming knowledge. This is a simple test that will verify some of these essential skills.
 
-Maciej Zasada
+Maciej Zasada  
 [UNIT9](https://unit9.com) Technical Director
 
 ## Instructions
